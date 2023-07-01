@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88c6636c-6b3c-47e9-931b-08921ad1fcea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/CombinedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/DriverHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/IncludedTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/LoadHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/MySQLHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/PostGREHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/RowHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/SQLiteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/TableCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/TableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/TableRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/Types/AbstractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/Types/ListType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/Types/MapType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Data/Types/UniqueIdType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/AbstractDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/DatabaseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/DriverDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/MySQLDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/PooledDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/Pooler/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/Pooler/PoolSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/Pooler/PoolStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/Pooler/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/PostGREDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/SQLiteConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Database/SQLiteDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Exceptions/FilterNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Exceptions/MultiplePrimaryKeysException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Exceptions/NoPooledConnectionAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Exceptions/NoTableColumnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Exceptions/UnhandledDataTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/dertod2/DatabaseHandlerPro/Exceptions/UnsupportedMapDepthException.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DatabaseHandlerPro" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DatabaseHandlerPro" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DatabaseHandlerPro" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ryq0bwQKw9vPHKopBh1RpzA1ss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.DatabaseHandlerPro [build]">
+    <configuration name="DatabaseHandlerPro [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DatabaseHandlerPro [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DatabaseHandlerPro [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.DatabaseHandlerPro [build]" />
+        <item itemvalue="Gradle.DatabaseHandlerPro [jar]" />
+        <item itemvalue="Gradle.DatabaseHandlerPro [assemble]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88c6636c-6b3c-47e9-931b-08921ad1fcea" name="Changes" comment="" />
+      <created>1688232448607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688232448607</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
